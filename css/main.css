@@ -308,8 +308,6 @@ table {
 }
 
 
-
-
 body {
   margin: auto;
   width: auto;
@@ -382,6 +380,7 @@ body {
     Color: white;
     font-family: sans-serif;
     font-size: 35px;
+    padding: 5px;
   }
 
 
@@ -413,11 +412,13 @@ ul{
   margin: 0;
 }
 
+
 .nav {
   list-style-type: none;
   overflow: hidden;
   background-color: #444;
   float: left;
+  
 }
 
 .nav a {
@@ -431,7 +432,7 @@ ul{
 }
 
 .nav a:hover {
-  background-color: rgb(97, 97, 97);
+  background-color: rgb(139, 139, 139);
   color: black
 }
 
@@ -467,7 +468,6 @@ ul{
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 #sticky {
   position: fixed;
-  top: 10;
   width: 100%;
 }
 
@@ -477,7 +477,6 @@ ul{
 }
 #topsticky {
   position: fixed;
-  top: 10;
   width: 100%;
 }
 
