@@ -39,3 +39,4 @@ function myFunction() {
   }
 }
 
+document.addEventListener('touchstart', onTouchStart, {passive: true});
